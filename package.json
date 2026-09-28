@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/shearrss",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shear lightweight rss statistics from stdin samples.",
+  "bin": {
+    "shearrss": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/shearrss.git"
+  },
+  "homepage": "https://theworker02.github.io/shearrss/",
+  "keywords": [
+    "shear",
+    "rss",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
